@@ -24,4 +24,7 @@ def names(first_name: bool=False, last_name: bool=False):
     if full_names:
         full_names = "KEFAS GALADIMA"
     return full_names
-    
+
+
+if __name__ =="__main__":
+    storage.run()
