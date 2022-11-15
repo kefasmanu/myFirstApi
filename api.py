@@ -15,13 +15,13 @@ def today():
 
 @storage.get('/mynames')
 def names(first_name: bool=False, last_name: bool=False):
-    full_name =""
+    full_names =""
     
     if first_name:
-        full_name += "KEFAS"
+        full_names += "KEFAS"
     if last_name:
-        full_name +=" GALADIMA"
-    if full_name:
-        full_name = "KEFAS GALADIMA"
-    return full_name
+        full_names +=" GALADIMA"
+    if full_names:
+        full_names = "KEFAS GALADIMA"
+    return full_names
     
